@@ -2,7 +2,7 @@ create table sql_agg.orders
 (
     id           serial PRIMARY KEY,
     date         DATE           not null,
-    costumer_id  integer references customers (id),
+    costumer_id  integer references  sql_agg.customers (id),
     product_name VARCHAR(255)   NOT NULL,
     amount       DECIMAL(10, 2) NOT NULL
 );

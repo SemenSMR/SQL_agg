@@ -1,4 +1,4 @@
-create schema sql_agg;
+
 
 create table sql_agg.customers
 (
@@ -17,8 +17,7 @@ VALUES ('Иван', 'Иванов', 30, '123-456-7890'),
        ('Екатерина', 'Васильева', 33, '678-901-2345'),
        ('Дмитрий', 'Попов', 27, '901-234-5678');
 
-select *
-from sql_agg.customers;
+
 
 update customers
 set name = ''
