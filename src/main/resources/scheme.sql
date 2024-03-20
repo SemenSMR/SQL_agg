@@ -19,5 +19,3 @@ VALUES ('Иван', 'Иванов', 30, '123-456-7890'),
 
 
 
-update customers
-set name = ''
