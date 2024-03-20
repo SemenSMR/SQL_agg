@@ -21,6 +21,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.postgresql:postgresql:42.2.23'
+    implementation group: 'org.liquibase', name: 'liquibase-core', version: '4.26.0'
+
 }
 
 tasks.named('test') {
